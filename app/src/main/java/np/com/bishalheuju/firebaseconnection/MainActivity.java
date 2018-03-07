@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
         mUser = mAuth.getCurrentUser();
-
+        
         if (mUser == null) {
             //not signed in
             Log.e(TAG, "No user present");
