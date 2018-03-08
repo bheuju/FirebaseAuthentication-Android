@@ -28,6 +28,12 @@ dependencies {
 
     implementation 'com.google.firebase:firebase-core:11.8.0'
     implementation 'com.google.firebase:firebase-auth:11.8.0'
+
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.0'
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-navigation:0.11.0'
+    implementation('com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.11.0') {
+        transitive = true
+    }
 }
 
 
